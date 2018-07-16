@@ -1,0 +1,10 @@
+ProductCategory(id,code,name)
+Product(id,code, name, idProductCategory, imageUrl, SalePrice,WholeSalePrice,Description,isActive,CreatedDate)
+User(id,userid, password, lastname, firstname, JobTitle,email, phoneNumber, roleName, isActive,createdDate ) 
+Post(id,code, title, image,createdDate, description , content)
+Bill(id, code, createdDate, totalMoney, ProductList, quantity, address, userId, customerId)
+
+
+
+
+
